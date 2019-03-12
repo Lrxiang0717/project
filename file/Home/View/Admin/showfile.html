@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>查看个人文件</title>
+
+        <link type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：文件管理 -> 查看个人文件</span>
+                <span style="float: right; margin-right: 8px; font-weight: bold;">
+                    <a style="text-decoration: none;" href="../index/right">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div class="div_search">
+            <span>
+                <form action="{$smarty.const.__SELF__}" method="post">
+                     <input class="inputBg" size="25" name="file_select" type="text" value="" />
+                    <input value="查询" type="submit" />
+                </form>
+            </span>
+        </div>
+        <div style="font-size: 13px; margin: 10px 5px;">
+            <table class="table_a" border="1" width="100%">
+                <tbody><tr style="font-weight: bold;">
+                        <td hidden>文件id</td>
+                        <td>文件名称</td>
+                        <td>文件类型</td>
+                        <td>文件大小</td>
+                        <td>文件描述</td>
+                        <td>上传时间</td>
+                        <td>文件路径</td>
+                    </tr>
+                    {foreach $info as $k => $v}
+                    <tr id="file">
+                        <td hidden>{$v.file_id}</td>
+                        <td>{$v.file_name}</td>
+                        <td>{$v.file_type}</td>
+                        <td>{$v.file_size}</td>
+                        <td>{$v.file_describe}</td>
+                        <td>{$v.file_date}</td>
+                        <td>D:\file\file\public\Upload</td>
+                    </tr>
+                    {/foreach}
+                    <tr>
+                        <td colspan="20" style="text-align: center;">
+                            {$pagelist}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

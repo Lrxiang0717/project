@@ -1,0 +1,171 @@
+[ 2017-09-01T11:18:02+08:00 ] 127.0.0.1 /file/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011752s ]
+
+[ 2017-09-01T11:18:07+08:00 ] 127.0.0.1 /file/index.php/Home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+ERR: 模板不存在:D:/file/file/Home/View/Index/login.html
+
+[ 2017-09-01T11:18:14+08:00 ] 127.0.0.1 /file/index.php/Home/index/showusers;
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-09-01T11:18:18+08:00 ] 127.0.0.1 /file/index.php/Home/index/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2017-09-01T11:18:21+08:00 ] 127.0.0.1 /file/index.php/Home/index/showuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-09-01T11:18:33+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-09-01T11:20:17+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+
+[ 2017-09-01T11:20:18+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-09-01T11:20:18+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+
+[ 2017-09-01T11:20:18+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-09-01T11:20:32+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+ERR: 模板不存在:D:/file/file/Home/View/User/showusers.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-09-01T11:22:58+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0365s ]
+ERR: 模板不存在:D:/file/file/Home/View/User/showusers.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-09-01T11:22:59+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 模板不存在:D:/file/file/Home/View/User/showusers.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-09-01T11:23:00+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: 模板不存在:D:/file/file/Home/View/User/showusers.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-09-01T11:23:00+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+ERR: 模板不存在:D:/file/file/Home/View/User/showusers.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-09-01T11:24:26+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+ERR: 模板不存在:D:/file/file/Home/View/User/showusers.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-09-01T11:25:46+08:00 ] 127.0.0.1 /file/index.php/Home/User/showusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+ERR: 模板不存在:D:/file/file/Home/View/User/showusers.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\file\file\Home\Controller\UserController.class.php:9) D:\file\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+

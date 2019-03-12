@@ -1,0 +1,728 @@
+[ 2017-12-11T22:45:01+08:00 ] 127.0.0.1 /file/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.184323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014104s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:1.6861s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.154110s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.154318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:05+08:00 ] 127.0.0.1 /file/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.583182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.583388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:07+08:00 ] 127.0.0.1 /file/index.php/Home/user/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:15+08:00 ] 127.0.0.1 /file/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `file_user` WHERE `user_name` = 'monkey' LIMIT 1   [ RunTime:0.2907s ]
+
+[ 2017-12-11T22:45:15+08:00 ] 127.0.0.1 /file/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:16+08:00 ] 127.0.0.1 /file/index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: select * from file_admin where admin_id=2 [ RunTime:0.0425s ]
+SQL: select * from file_role where role_id=1 [ RunTime:0.0004s ]
+SQL: select * from file_auth where auth_level = 0 and auth_id in (1,3,4,5,6,7,12,13) [ RunTime:0.0250s ]
+SQL: select * from file_auth where auth_level = 1 and auth_id in (1,3,4,5,6,7,12,13) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:16+08:00 ] 127.0.0.1 /file/index.php/Home/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.223563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.223799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:16+08:00 ] 127.0.0.1 /file/index.php/Home/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:20+08:00 ] 127.0.0.1 /file/index.php/Home/File/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file_file` LIMIT 1   [ RunTime:0.0677s ]
+SQL: SELECT * FROM `file_file` WHERE `file_user` = 'monkey' LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_id D:\file\file\Runtime\Cache\d92262506e7c8376a9115ae105e8dee7adfc62ad.file.manage.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:20+08:00 ] 127.0.0.1 /file/index.php/Home/File/changefile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0917s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_oldid D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 58 行.
+NOTIC: [8] Undefined index: file_oldname D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:21+08:00 ] 127.0.0.1 /file/index.php/Home/File/css/mine.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:21+08:00 ] 127.0.0.1 /file/index.php/Home/File/changefile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_oldid D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 58 行.
+NOTIC: [8] Undefined index: file_oldname D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:21+08:00 ] 127.0.0.1 /file/index.php/Home/File/css/mine.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:22+08:00 ] 127.0.0.1 /file/index.php/Home/File/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `file_file` WHERE `file_user` = 'monkey' LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_id D:\file\file\Runtime\Cache\d92262506e7c8376a9115ae105e8dee7adfc62ad.file.manage.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:24+08:00 ] 127.0.0.1 /file/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+
+[ 2017-12-11T22:45:24+08:00 ] 127.0.0.1 /file/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:24+08:00 ] 127.0.0.1 /file/index.php/Home/user/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:31+08:00 ] 127.0.0.1 /file/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `file_user` WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-12-11T22:45:32+08:00 ] 127.0.0.1 /file/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:32+08:00 ] 127.0.0.1 /file/index.php/Home/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:32+08:00 ] 127.0.0.1 /file/index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: select * from file_admin where admin_id=1 [ RunTime:0.0004s ]
+SQL: select * from file_role where role_id=0 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\file\file\Home\Controller\IndexController.class.php 第 23 行.
+SQL: select * from file_auth where auth_level = 0 [ RunTime:0.0004s ]
+SQL: select * from file_auth where auth_level = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:45:32+08:00 ] 127.0.0.1 /file/index.php/Home/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:33+08:00 ] 127.0.0.1 /file/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-12-11T22:47:33+08:00 ] 127.0.0.1 /file/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:33+08:00 ] 127.0.0.1 /file/index.php/Home/user/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:38+08:00 ] 127.0.0.1 /file/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0596s ]
+SQL: SELECT * FROM `file_user` WHERE `user_name` = 'monkey' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-12-11T22:47:38+08:00 ] 127.0.0.1 /file/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:38+08:00 ] 127.0.0.1 /file/index.php/Home/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:38+08:00 ] 127.0.0.1 /file/index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+SQL: select * from file_admin where admin_id=2 [ RunTime:0.0003s ]
+SQL: select * from file_role where role_id=1 [ RunTime:0.0003s ]
+SQL: select * from file_auth where auth_level = 0 and auth_id in (1,3,4,5,6,7,12,13) [ RunTime:0.0004s ]
+SQL: select * from file_auth where auth_level = 1 and auth_id in (1,3,4,5,6,7,12,13) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:38+08:00 ] 127.0.0.1 /file/index.php/Home/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:42+08:00 ] 127.0.0.1 /file/index.php/Home/File/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file_file` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `file_file` WHERE `file_user` = 'monkey' LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_id D:\file\file\Runtime\Cache\d92262506e7c8376a9115ae105e8dee7adfc62ad.file.manage.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:47+08:00 ] 127.0.0.1 /file/index.php/Home/File/changefile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0332s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_oldid D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 58 行.
+NOTIC: [8] Undefined index: file_oldname D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:48+08:00 ] 127.0.0.1 /file/index.php/Home/File/css/mine.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:49+08:00 ] 127.0.0.1 /file/index.php/Home/File/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `file_file` WHERE `file_user` = 'monkey' LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_id D:\file\file\Runtime\Cache\d92262506e7c8376a9115ae105e8dee7adfc62ad.file.manage.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:58+08:00 ] 127.0.0.1 /file/index.php/Home/File/changefile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.1303s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_oldid D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 58 行.
+NOTIC: [8] Undefined index: file_oldname D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:47:58+08:00 ] 127.0.0.1 /file/index.php/Home/File/css/mine.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:48:04+08:00 ] 127.0.0.1 /file/index.php/Home/File/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0446s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `file_file` WHERE `file_user` = 'monkey' LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_id D:\file\file\Runtime\Cache\d92262506e7c8376a9115ae105e8dee7adfc62ad.file.manage.html.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:48:16+08:00 ] 127.0.0.1 /file/index.php/Home/File/selectfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `file_common_file` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `file_common_file` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `file_common_file` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:48:16+08:00 ] 127.0.0.1 /file/index.php/Home/File/css/mine.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:48:16+08:00 ] 127.0.0.1 /file/index.php/Home/File/changefile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `file_file` [ RunTime:0.0474s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: file_oldid D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 58 行.
+NOTIC: [8] Undefined index: file_oldname D:\file\file\Runtime\Cache\4f8b3fca83749d82cc64ab46e034adb22ec50434.file.changefile.html.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-11T22:48:16+08:00 ] 127.0.0.1 /file/index.php/Home/File/css/mine.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+

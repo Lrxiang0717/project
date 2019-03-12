@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv=content-type content="text/html; charset=utf-8" />
+        <link href="{$smarty.const.CSS_URL}admin.css" type="text/css" rel="stylesheet" />
+        <script language=javascript>
+            function expand(el)
+            {
+                childobj = document.getElementById("child" + el);
+
+                if (childobj.style.display == 'none')
+                {
+                    childobj.style.display = 'block';
+                }
+                else
+                {
+                    childobj.style.display = 'none';
+                }
+                return;
+            }
+        </script>
+    </head>
+    <body>
+        <table height="100%" cellspacing=0 cellpadding=0 width=170 
+               background={$smarty.const.IMG_URL}menu_bg.jpg border=0>
+               <tr>
+                <td valign=top align=middle>
+                    <table cellspacing=0 cellpadding=0 width="100%" border=0>
+
+                        <tr>
+                            <td height=10></td></tr></table>
+                    <table cellspacing=0 cellpadding=0 width=150 border=0>
+
+                        <tr height=22>
+                            <td style="padding-left: 30px" background={$smarty.const.IMG_URL}menu_bt.jpg><a 
+                                    class=menuparent onclick=expand(1) 
+                                    href="javascript:void(0);">文件管理</a></td></tr>
+                        <tr height=4>
+                            <td></td></tr></table>
+                    <table id=child1 style="display: none" cellspacing=0 cellpadding=0 
+                           width=150 border=0>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../file/add" 
+                                   target=right>上传文件</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../file/manage" 
+                                   target=right>查看个人文件</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../file/changefile" 
+                                   target=right>修改个人文件</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../file/selectfile" 
+                                   target=right>查询共享文件</a></td></tr>
+                        <tr height=4>
+                            <td colspan=2></td></tr></table>
+                    <table cellspacing=0 cellpadding=0 width=150 border=0>
+
+                        <tr height=22>
+                            <td style="padding-left: 30px" background={$smarty.const.IMG_URL}menu_bt.jpg><a 
+                                    class=menuparent onclick=expand(2) 
+                                    href="javascript:void(0);">管理员</a></td></tr>
+                        <tr height=4>
+                            <td></td></tr></table>
+                    <table id=child2 style="display: none" cellspacing=0 cellpadding=0 
+                           width=150 border=0>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../Admin/changeuser" 
+                                   target=right>操作用户</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../Admin/showuser" 
+                                   target=right>查看用户</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../Admin/selectcommon_file" 
+                                   target=right>查询共享文件</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../Admin/changecommon_file" 
+                                   target=right>修改共享文件</a></td></tr>
+                        <tr height=4>
+                            <td colspan=2></td></tr></table>
+                    <table cellspacing=0 cellpadding=0 width=150 border=0>
+
+                        <tr height=22>
+                            <td style="padding-left: 30px" background={$smarty.const.IMG_URL}menu_bt.jpg><a 
+                                    class=menuparent onclick=expand(0) 
+                                    href="javascript:void(0);">个人管理</a></td></tr>
+                        <tr height=4>
+                            <td></td></tr></table>
+                    <table id=child0 style="display: none" cellspacing=0 cellpadding=0 
+                           width=150 border=0>
+                        
+
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../User/changemessage" 
+                                   target=right>修改个人信息</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   href="../Index/right" 
+                                   target=right>返回首页</a></td></tr>
+                        <tr height=20>
+                            <td align=middle width=30><img height=9 
+                                                           src="{$smarty.const.IMG_URL}menu_icon.gif" width=9></td>
+                            <td><a class=menuchild 
+                                   onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
+                                   href="../User/logout" 
+                                   target=_top>退出系统</a></td></tr></table></td>
+                <td width=1 bgcolor=#d1e6f7></td>
+            </tr>
+        </table>
+    </body>
+</html>

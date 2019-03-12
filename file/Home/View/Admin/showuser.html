@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+     <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>查看用户</title>
+
+        <link type="text/css" rel="stylesheet" />
+    </head>
+    <body> 
+        <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：管理员 ->查看用户</span>
+                <span style="float: right; margin-right: 8px; font-weight: bold;">
+                    <a style="text-decoration: none;" href="../index/right">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div class="div_search">
+            <span>
+                <form action="{$smarty.const.__SELF__}" method="post">
+                     <input class="inputBg" size="25" name="file_select" type="text" value="" />
+                    <input value="查询" type="submit" />
+                </form>
+            </span>
+        </div>
+        <div style="font-size: 13px; margin: 10px 5px;">
+            <table class="table_a" border="1" width="100%">
+                <tbody><tr style="font-weight: bold;">
+                        <td hidden>用户id</td>
+                        <td>用户名称</td>
+                        <td>用户密码</td>
+                        <td>用户安全问题</td>
+                        <td>用户安全问题答案</td>
+                        <td>用户qq</td>
+                        <td>用户权限</td>
+                        <td>操作</td>
+                    </tr>
+                    {foreach $info as $k => $v}
+                    <tr id="product1">
+                        <td hidden>{$v.user_id}</td>
+                        <td>{$v.user_name}</td>
+                        <td>{$v.user_password}</td>
+                        <td>{$v.user_question}</td>
+                        <td>{$v.user_answer}</td>
+                        <td>{$v.user_qq}</td>
+                        <td>{$v.user_level}</td>
+                        <td align="center">
+                            <input type="button" value="操作用户" onclick= "Update({$v.user_id},'{$v.user_name}')"> 
+                        </td>
+                    </tr>
+                    {/foreach}
+                    <tr>
+                        <td colspan="20" style="text-align: center;">
+                            {$pagelist}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function Update(id,name){
+            window.location.assign("/file/index.php/Home/Admin/changeuser?user_id="+id+"&user_name="+name);
+        }
+    </script> 
+</html>

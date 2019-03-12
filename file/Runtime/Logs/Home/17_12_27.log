@@ -1,0 +1,287 @@
+[ 2017-12-27T18:27:07+08:00 ] 127.0.0.1 /file/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002477s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T18:27:08+08:00 ] 127.0.0.1 /file/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T18:27:08+08:00 ] 127.0.0.1 /file/index.php/Home/user/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002773s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:29+08:00 ] 127.0.0.1 /file/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:29+08:00 ] 127.0.0.1 /file/index.php/Home/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name D:\file\file\Runtime\Cache\3f50c12b66ca081bea52c59e697b0d23f3ade925.file.head.html.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:30+08:00 ] 127.0.0.1 /file/index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 1
+ [ SQL语句 ] : select * from file_admin where admin_id=
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 1
+ [ SQL语句 ] : select * from file_admin where admin_id=
+
+[ 2017-12-27T21:28:30+08:00 ] 127.0.0.1 /file/index.php/Home/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name D:\file\file\Runtime\Cache\cfa541b526bda4691d6025fdc8fb4cdeb6c18a2d.file.right.html.php 第 84 行.
+NOTIC: [8] Undefined index: user_name D:\file\file\Runtime\Cache\cfa541b526bda4691d6025fdc8fb4cdeb6c18a2d.file.right.html.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:33+08:00 ] 127.0.0.1 /file/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-12-27T21:28:33+08:00 ] 127.0.0.1 /file/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:33+08:00 ] 127.0.0.1 /file/index.php/Home/user/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:34+08:00 ] 127.0.0.1 /file/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:45+08:00 ] 127.0.0.1 /file/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: validate D:\file\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+NOTIC: [8] Undefined offset: 1 D:\file\file\Home\Controller\UserController.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 1 D:\file\file\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 1 D:\file\file\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\file\file\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 D:\file\file\Home\Controller\UserController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 1 D:\file\file\Home\Controller\UserController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 2 D:\file\file\Home\Controller\UserController.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 2 D:\file\file\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 2 D:\file\file\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 2 D:\file\file\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 2 D:\file\file\Home\Controller\UserController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 2 D:\file\file\Home\Controller\UserController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 3 D:\file\file\Home\Controller\UserController.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 3 D:\file\file\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 3 D:\file\file\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 3 D:\file\file\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 3 D:\file\file\Home\Controller\UserController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 3 D:\file\file\Home\Controller\UserController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 4 D:\file\file\Home\Controller\UserController.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 4 D:\file\file\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 4 D:\file\file\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 4 D:\file\file\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 4 D:\file\file\Home\Controller\UserController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 4 D:\file\file\Home\Controller\UserController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 5 D:\file\file\Home\Controller\UserController.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 5 D:\file\file\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 5 D:\file\file\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 5 D:\file\file\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 5 D:\file\file\Home\Controller\UserController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 5 D:\file\file\Home\Controller\UserController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 6 D:\file\file\Home\Controller\UserController.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 6 D:\file\file\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 6 D:\file\file\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 6 D:\file\file\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 6 D:\file\file\Home\Controller\UserController.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 6 D:\file\file\Home\Controller\UserController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:53+08:00 ] 127.0.0.1 /file/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `file_user` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: validate D:\file\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\file\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `file_user` (`user_name`,`user_password`,`user_question`,`user_answer`,`user_qq`) VALUES ('111','111','你第一次坐飞机是去哪里','111','1452978672') [ RunTime:0.0567s ]
+SQL: SHOW COLUMNS FROM `file_admin` [ RunTime:0.0949s ]
+SQL: INSERT INTO `file_admin` (`admin_name`,`admin_password`) VALUES ('111','111') [ RunTime:0.0636s ]
+
+[ 2017-12-27T21:28:55+08:00 ] 127.0.0.1 /file/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+
+[ 2017-12-27T21:28:55+08:00 ] 127.0.0.1 /file/index.php/Home/user/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004235s ]
+NOTIC: [8] Constant NOW_TIME already defined D:\file\file\index.php 第 13 行.
+NOTIC: [8] Undefined variable: SERVER D:\file\file\index.php 第 15 行.
+

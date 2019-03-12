@@ -1,0 +1,27 @@
+[ 2017-08-30T17:16:17+08:00 ] 127.0.0.1 /file/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+ERR: 非法操作:index
+
+[ 2017-08-30T17:16:22+08:00 ] 127.0.0.1 /file/index.php/Home/File/showfiles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+ERR: 模板不存在:D:/file/file/Home/View/File/showfiles.html
+
+[ 2017-08-30T17:16:33+08:00 ] 127.0.0.1 /file/index.php/Home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+ERR: 模板不存在:D:/file/file/Home/View/Index/login.html
+

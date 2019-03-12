@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script>
+        function changecommon_file(){
+            document.form1.action='/file/index.php/Home/Admin/changecommon_file';
+            document.form1.method="post";
+            document.form1.submit();
+        }
+    </script>
+        <title>修改个人文件</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="./css/mine.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：管理员->修改公共文件</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="../index/right">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+
+        <div style="font-size: 13px;margin: 10px 5px">
+            <form name="form1" action="">
+            <table border="1" width="100%" class="table_a">
+                <tr>
+                    <td>文件名称</td>
+                    <td>{$smarty.session.file_commonname}</td>
+                </tr>
+                <tr>
+                    <td>修改文件名称</td>
+                    <td><input type="text" name="file_newname" /></td>
+                </tr>
+                <tr>
+                    <td>修改文件描述</td>
+                    <td>
+                        <textarea name="file_newdescribe"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="修改共享文件" onclick='changecommon_file()'>
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </body>
+</html>
